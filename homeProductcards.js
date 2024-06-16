@@ -5,7 +5,7 @@ export const showproductcontainer =(product) => {
     if(!product){
         return false;
     }
-
+                                                                                                                                                    
     product.forEach((curProd) => {
         const { brand, category, description, id, image, name, price, stock } =
          curProd;
